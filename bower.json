@@ -1,5 +1,5 @@
 {
-  "name": "Ganize",
+  "name": "Morg",
   "main": "index.js",
   "version": "0.0.1",
   "description": "Web-based Org-mode note taking and organizer",
@@ -21,6 +21,7 @@
     "tests"
   ],
   "dependencies": {
-    "brick": "mozbrick/brick#~2.0.0"
+    "angular": "~1.3.11",
+    "jquery": "~2.1.3"
   }
 }

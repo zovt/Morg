@@ -1,0 +1,8 @@
+* Morg
+Morg is a web front end for Org-Mode. It is intended as an open-source, self-hosted organizer and agenda.
+
+** Goals
+   1. Interface
+   2. Parse org-mode
+   3. Sync
+   4. Mobile App
