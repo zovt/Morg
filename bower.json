@@ -1,0 +1,26 @@
+{
+  "name": "Ganize",
+  "main": "index.js",
+  "version": "0.0.1",
+  "description": "Web-based Org-mode note taking and organizer",
+  "keywords": [
+    "notes",
+    "emacs",
+    "org-mode"
+  ],
+  "authors": [
+    "zovt"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "brick": "mozbrick/brick#~2.0.0"
+  }
+}
