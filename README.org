@@ -1,8 +1,9 @@
 * Morg
-Morg is a web front end for Org-Mode. It is intended as an open-source, self-hosted organizer and agenda.
-
+Morg is an organizer based on the amazing Org-Mode. It aims to be a lightweight, open-source, self-hosted replacement for some other organizing software.
 ** Goals
-   1. Interface
-   2. Parse org-mode
+   1. Get it basically working
+   2. Make it work on mobile
    3. Sync
-   4. Mobile App
+   4. WYSIWYG editor
+   5. Emacs Client
+   6. Mobile Apps

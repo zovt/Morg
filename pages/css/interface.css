@@ -1,0 +1,163 @@
+@font-face {
+    font-family: Lora;
+    font-style: normal;
+    font-weight: 400;
+    src: url(../font/Lora/Lora-Regular.ttf);
+}
+
+@font-face {
+    font-family: Lora;
+    font-style: italic;
+    font-weight: 400;
+    src: url(../font/Lora/Lora-Italic.ttf);
+}
+
+@font-face {
+    font-family: Lora;
+    font-style: normal;
+    font-weight: 700;
+    src: url(../font/Lora/Lora-Bold.ttf);
+}
+
+@font-face {
+    font-family: Lora;
+    font-style: italic;
+    font-weight: 700;
+    src: url(../font/Lora/Lora-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    src: url(../font/Lato/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: Lato;
+    font-style: italic;
+    font-weight: 400;
+    src: url(../font/Lato/Lato-Italic.ttf);
+}
+
+@font-face {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 700;
+    src: url(../font/Lato/Lato-Bold.ttf);
+}
+
+@font-face {
+    font-family: Lato;
+    font-style: italic;
+    font-weight: 700;
+    src: url(../font/Lato/Lato-BoldItalic.ttf);
+}
+
+button {
+    font-family: Lato;
+    background-color: white;
+    padding: 5px 10px;
+    font-size: 15pt;
+    border-radius: 6px;
+    border: 1px solid #101413;
+    transition: color 0.5s, background-color 0.5s;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+input {
+    border: none;
+    background-color: #F2F3F2;
+    border-radius: 3px;
+    padding: 4px 10px;
+    font-family: Lato;
+}
+
+body {
+    font-family: Lora;
+    margin: 0;
+    padding: 0;
+}
+
+span.sec-header {
+    display: inline-block;
+    font-family: Lato;
+    font-size: 36pt;
+    margin: 15px;
+    line-height: 36pt;
+}
+
+#sidebar {
+    width: 20%;
+    min-width: 200px;
+    height: 100%;
+    background-color: #303530;
+    color: #FFF;
+    vertical-align: top;
+}
+
+#sidebar #title-area {
+    display: block;
+    margin: 15px;
+    padding-bottom: 15px;
+    border-bottom: solid 1px #999;
+    font-size: 36pt;
+    text-align: center;
+}
+
+#sidebar #tools {
+    font-family: "Lato";
+}
+
+#notes-area {
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+
+#notes-area #top {
+    border-bottom: solid 1px #D0D0D0;
+    width: 100%;
+}
+
+#notes-area #top #note-search {
+    width: 100%;
+}
+
+#notes-area #top #note-search input {
+    display: block;
+}
+
+#notes {
+    overflow-y: auto;
+    height: 100%;
+}
+
+.note {
+    border: solid 1px #F0F0F0;
+    padding: 10px;
+    transition: background-color 0.5s ease;
+}
+
+.note:hover {
+    cursor: pointer;
+    background-color: #F9F9F9;
+}
+
+.note .note-title {
+    font-size: 20pt;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #888;
+}
+
+.note .note-contents {
+    font-family: "Lora Regular";
+    font-size: 11pt;
+    white-space: pre-wrap;
+}
