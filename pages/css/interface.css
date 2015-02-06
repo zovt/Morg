@@ -85,16 +85,16 @@ body {
 }
 
 span.sec-header {
-    display: inline-block;
     font-family: Lato;
     font-size: 36pt;
     margin: 15px;
     line-height: 36pt;
+    width: 100%;
 }
 
 #sidebar {
     width: 20%;
-    min-width: 200px;
+    min-width: 300px;
     height: 100%;
     background-color: #303530;
     color: #FFF;
@@ -118,30 +118,37 @@ span.sec-header {
     height: 100%;
     width: 100%;
     vertical-align: top;
+    display: flex;
+    flex-direction: column;
 }
 
 #notes-area #top {
     border-bottom: solid 1px #D0D0D0;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-#notes-area #top #note-search {
+#notes-area #top input {
+    display: flex;
     width: 100%;
-}
-
-#notes-area #top #note-search input {
-    display: block;
 }
 
 #notes {
     overflow-y: auto;
     height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .note {
     border: solid 1px #F0F0F0;
     padding: 10px;
     transition: background-color 0.5s ease;
+    width: 400px;
+    height: 300px;
 }
 
 .note:hover {

@@ -14,8 +14,7 @@ block body
     #notes-area(ng-controller="noteController")
       #top
         span.sec-header Notes
-        #note-search
-          input.search(type="text" placeholder="search")
+        input.search(type="text" placeholder="search")
       #notes
         .note(ng-repeat="note in notes")
           .note-title.
